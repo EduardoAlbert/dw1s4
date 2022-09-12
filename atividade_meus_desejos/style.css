@@ -1,0 +1,52 @@
+body {
+    margin: 25px;
+    background-image: url('img/cuscuzBackground.jpg');
+    background-attachment: fixed;
+    background-size: 50%;
+}
+
+div {
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+div#first{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div#last {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+div.about {
+    text-align: center;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 136, 7);
+}
+
+a:hover {
+    color: rgb(0, 99, 5);
+    text-decoration: underline;
+}
+
+img {
+    max-width: 250px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
